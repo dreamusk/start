@@ -1,0 +1,60 @@
+body {
+
+
+                            
+  #skill{
+   
+    position: relative;
+    left: 330px;
+    border: 3px solid #73AD21;
+    }
+
+
+
+
+
+
+
+
+
+    background-color: black;
+    background-image: radial-gradient(rgb(31 31 31 / 75%), #282828 120%);
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 2rem;
+    color: #80f58a;
+    font: 1.3rem Inconsolata, monospace;
+    text-shadow: 0 0 13px #35e279;
+    filter: blur(0.7px);
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: repeating-linear-gradient(
+            0deg,
+            rgba(black, 0.15),
+            rgba(black, 0.15) 3px,
+            transparent 3px,
+            transparent 6px
+        );
+        pointer-events: none;
+    }
+}
+::selection {
+    background: #0080ff;
+    text-shadow: none;
+}
+pre {
+    margin: 0;
+}
+
+div{
+   
+    position: relative;
+    left: 330px;
+    border: 3px solid #73AD21;
+    }
